@@ -1,6 +1,7 @@
+<img src="logo_small.png" align="right" />
+
 # NaviRice
 Augmented reality vehicle navigation system
-
 
 ## Getting Started
 
