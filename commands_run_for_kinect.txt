@@ -1,0 +1,21 @@
+git clone https://github.com/OpenKinect/libfreenect2.git
+cd libfreenect2/
+sudo apt-get install build-essential cmake pkg-config
+sudo apt-get install libusb-1.0-0-dev
+sudo apt-get install libturbojpeg libjpeg-turbo8-dev
+sudo dpkg -i debs/libglfw3*deb; sudo apt-get install -f; sudo apt-get install libgl1-mesa-dri-lts-vivid
+
+cd depends
+sudo apt install libtool m4 autotools-dev automake libudev-dev # Needed for install_libusb.sh
+sudo ./ubuntu_install.sh
+sudo ./install_libusb.sh
+
+sudo apt install cmake-curses-gui
+
+mkdir build
+cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=$HOME/freenect2
+make
+make install
+cd bin
+sudo ./Protonect
