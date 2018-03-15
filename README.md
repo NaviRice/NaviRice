@@ -3,6 +3,62 @@
 # NaviRice
 Augmented reality vehicle navigation system
 
+<table>
+  <tbody>
+     <tr>
+       <td>
+         :heavy_check_mark:
+       </td>
+       <td>
+         Common Modules
+       </td>
+     </tr>
+     <tr>
+       <td>
+       </td>
+       <td>
+         Head Tracking Service
+       </td>
+     </tr>
+     <tr>
+       <td>
+         :heavy_check_mark:
+       </td>
+       <td>
+         Kinect Server
+       </td>
+     </tr>
+     <tr>
+       <td>
+       </td>
+       <td>
+         Rendering Service
+       </td>
+     </tr>
+     <tr>
+       <td>
+       </td>
+       <td>
+         Renderer
+       </td>
+     </tr>
+     <tr>
+       <td>
+       </td>
+       <td>
+         Renderer bridge
+       </td>
+     </tr>
+     <tr>
+       <td>
+       </td>
+       <td>
+         Android App
+       </td>
+     </tr>
+  </tbody>
+</table>
+
 ## Getting Started
 
 ### Prerequisites
@@ -23,13 +79,13 @@ When contributing to this repository, please first discuss the change you wish t
 
 ## Authors
 
-- **Alex Gaines** - *Initial work* - [roboman2444](https://github.com/roboman2444)
+- **Alex Gaines** - *Rendering Systems & Infrastructure* - [roboman2444](https://github.com/roboman2444)
 
-- **Binam Kayastha** - *Initial work* - [binamkayastha](https://github.com/binamkayastha)
+- **Binam Kayastha** - *Head Tracking Service* - [binamkayastha](https://github.com/binamkayastha)
 
-- **Can Alper** - *Initial work* - [calper-ql](https://github.com/calper-ql)
+- **Can Alper** - *Head Tracking Service & Kinect Server* - [calper-ql](https://github.com/calper-ql)
 
-- **Yang Liu** - *Initial work* - [byliuyang](https://github.com/byliuyang)
+- **Yang Liu** - *Android App & Infrastructure* - [byliuyang](https://github.com/byliuyang)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
